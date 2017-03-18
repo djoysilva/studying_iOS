@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC4E0D451E6A23DF00078361"
-               BuildableName = "Exemplo Classe"
-               BlueprintName = "Exemplo Classe"
-               ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+               BlueprintIdentifier = "ACFBBC751E73654E0065DFFB"
+               BuildableName = "Exerci&#x301;cio_Enfermeira_POO"
+               BlueprintName = "Exerci&#x301;cio_Enfermeira_POO"
+               ReferencedContainer = "container:Exerci&#x301;cio_Enfermeira_POO.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC4E0D451E6A23DF00078361"
-            BuildableName = "Exemplo Classe"
-            BlueprintName = "Exemplo Classe"
-            ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+            BlueprintIdentifier = "ACFBBC751E73654E0065DFFB"
+            BuildableName = "Exerci&#x301;cio_Enfermeira_POO"
+            BlueprintName = "Exerci&#x301;cio_Enfermeira_POO"
+            ReferencedContainer = "container:Exerci&#x301;cio_Enfermeira_POO.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC4E0D451E6A23DF00078361"
-            BuildableName = "Exemplo Classe"
-            BlueprintName = "Exemplo Classe"
-            ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+            BlueprintIdentifier = "ACFBBC751E73654E0065DFFB"
+            BuildableName = "Exerci&#x301;cio_Enfermeira_POO"
+            BlueprintName = "Exerci&#x301;cio_Enfermeira_POO"
+            ReferencedContainer = "container:Exerci&#x301;cio_Enfermeira_POO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC4E0D451E6A23DF00078361"
-            BuildableName = "Exemplo Classe"
-            BlueprintName = "Exemplo Classe"
-            ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+            BlueprintIdentifier = "ACFBBC751E73654E0065DFFB"
+            BuildableName = "Exerci&#x301;cio_Enfermeira_POO"
+            BlueprintName = "Exerci&#x301;cio_Enfermeira_POO"
+            ReferencedContainer = "container:Exerci&#x301;cio_Enfermeira_POO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
