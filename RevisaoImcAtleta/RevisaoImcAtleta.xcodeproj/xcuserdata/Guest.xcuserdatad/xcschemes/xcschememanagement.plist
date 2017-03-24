@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Exemplo Classe.xcscheme</key>
+		<key>RevisaoImcAtleta.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AC1CE2BF1E6A23D60025C720</key>
+		<key>AC3C65B81E85DF45007D4CFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC3C65D11E85DF45007D4CFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC3C65DC1E85DF45007D4CFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

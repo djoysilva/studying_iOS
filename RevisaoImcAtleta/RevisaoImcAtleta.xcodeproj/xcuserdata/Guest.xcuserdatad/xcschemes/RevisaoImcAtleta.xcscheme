@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC1CE2BF1E6A23D60025C720"
-               BuildableName = "Exemplo Classe"
-               BlueprintName = "Exemplo Classe"
-               ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+               BlueprintIdentifier = "AC3C65B81E85DF45007D4CFE"
+               BuildableName = "RevisaoImcAtleta.app"
+               BlueprintName = "RevisaoImcAtleta"
+               ReferencedContainer = "container:RevisaoImcAtleta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,34 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC3C65D11E85DF45007D4CFE"
+               BuildableName = "RevisaoImcAtletaTests.xctest"
+               BlueprintName = "RevisaoImcAtletaTests"
+               ReferencedContainer = "container:RevisaoImcAtleta.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC3C65DC1E85DF45007D4CFE"
+               BuildableName = "RevisaoImcAtletaUITests.xctest"
+               BlueprintName = "RevisaoImcAtletaUITests"
+               ReferencedContainer = "container:RevisaoImcAtleta.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC1CE2BF1E6A23D60025C720"
-            BuildableName = "Exemplo Classe"
-            BlueprintName = "Exemplo Classe"
-            ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+            BlueprintIdentifier = "AC3C65B81E85DF45007D4CFE"
+            BuildableName = "RevisaoImcAtleta.app"
+            BlueprintName = "RevisaoImcAtleta"
+            ReferencedContainer = "container:RevisaoImcAtleta.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC1CE2BF1E6A23D60025C720"
-            BuildableName = "Exemplo Classe"
-            BlueprintName = "Exemplo Classe"
-            ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+            BlueprintIdentifier = "AC3C65B81E85DF45007D4CFE"
+            BuildableName = "RevisaoImcAtleta.app"
+            BlueprintName = "RevisaoImcAtleta"
+            ReferencedContainer = "container:RevisaoImcAtleta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC1CE2BF1E6A23D60025C720"
-            BuildableName = "Exemplo Classe"
-            BlueprintName = "Exemplo Classe"
-            ReferencedContainer = "container:Exemplo Classe.xcodeproj">
+            BlueprintIdentifier = "AC3C65B81E85DF45007D4CFE"
+            BuildableName = "RevisaoImcAtleta.app"
+            BlueprintName = "RevisaoImcAtleta"
+            ReferencedContainer = "container:RevisaoImcAtleta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
