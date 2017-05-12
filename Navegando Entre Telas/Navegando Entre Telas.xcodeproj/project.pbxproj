@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDA49611EC66B4200CDCABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA49601EC66B4200CDCABE /* AppDelegate.swift */; };
+		ACDA49631EC66B4200CDCABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA49621EC66B4200CDCABE /* ViewController.swift */; };
+		ACDA49661EC66B4200CDCABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDA49641EC66B4200CDCABE /* Main.storyboard */; };
+		ACDA49681EC66B4200CDCABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDA49671EC66B4200CDCABE /* Assets.xcassets */; };
+		ACDA496B1EC66B4200CDCABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDA49691EC66B4200CDCABE /* LaunchScreen.storyboard */; };
+		ACDA49761EC66B4300CDCABE /* Navegando_Entre_TelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA49751EC66B4300CDCABE /* Navegando_Entre_TelasTests.swift */; };
+		ACDA49811EC66B4300CDCABE /* Navegando_Entre_TelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA49801EC66B4300CDCABE /* Navegando_Entre_TelasUITests.swift */; };
+		ACDA498F1EC6778300CDCABE /* TelaXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA498E1EC6778300CDCABE /* TelaXViewController.swift */; };
+		ACDA49911EC67BF800CDCABE /* TelaVermelhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA49901EC67BF800CDCABE /* TelaVermelhaViewController.swift */; };
+		ACDA49931EC67F9800CDCABE /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA49921EC67F9800CDCABE /* TelaPrincipalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDA49721EC66B4300CDCABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDA49551EC66B4200CDCABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDA495C1EC66B4200CDCABE;
+			remoteInfo = "Navegando Entre Telas";
+		};
+		ACDA497D1EC66B4300CDCABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDA49551EC66B4200CDCABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDA495C1EC66B4200CDCABE;
+			remoteInfo = "Navegando Entre Telas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACDA495D1EC66B4200CDCABE /* Navegando Entre Telas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navegando Entre Telas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDA49601EC66B4200CDCABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDA49621EC66B4200CDCABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDA49651EC66B4200CDCABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDA49671EC66B4200CDCABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDA496A1EC66B4200CDCABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDA496C1EC66B4200CDCABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDA49711EC66B4300CDCABE /* Navegando Entre TelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navegando Entre TelasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDA49751EC66B4300CDCABE /* Navegando_Entre_TelasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navegando_Entre_TelasTests.swift; sourceTree = "<group>"; };
+		ACDA49771EC66B4300CDCABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDA497C1EC66B4300CDCABE /* Navegando Entre TelasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navegando Entre TelasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDA49801EC66B4300CDCABE /* Navegando_Entre_TelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navegando_Entre_TelasUITests.swift; sourceTree = "<group>"; };
+		ACDA49821EC66B4300CDCABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDA498E1EC6778300CDCABE /* TelaXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaXViewController.swift; sourceTree = "<group>"; };
+		ACDA49901EC67BF800CDCABE /* TelaVermelhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaVermelhaViewController.swift; sourceTree = "<group>"; };
+		ACDA49921EC67F9800CDCABE /* TelaPrincipalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaPrincipalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDA495A1EC66B4200CDCABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDA496E1EC66B4300CDCABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDA49791EC66B4300CDCABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDA49541EC66B4200CDCABE = {
+			isa = PBXGroup;
+			children = (
+				ACDA495F1EC66B4200CDCABE /* Navegando Entre Telas */,
+				ACDA49741EC66B4300CDCABE /* Navegando Entre TelasTests */,
+				ACDA497F1EC66B4300CDCABE /* Navegando Entre TelasUITests */,
+				ACDA495E1EC66B4200CDCABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDA495E1EC66B4200CDCABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA495D1EC66B4200CDCABE /* Navegando Entre Telas.app */,
+				ACDA49711EC66B4300CDCABE /* Navegando Entre TelasTests.xctest */,
+				ACDA497C1EC66B4300CDCABE /* Navegando Entre TelasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDA495F1EC66B4200CDCABE /* Navegando Entre Telas */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA49601EC66B4200CDCABE /* AppDelegate.swift */,
+				ACDA49621EC66B4200CDCABE /* ViewController.swift */,
+				ACDA49641EC66B4200CDCABE /* Main.storyboard */,
+				ACDA49921EC67F9800CDCABE /* TelaPrincipalViewController.swift */,
+				ACDA49901EC67BF800CDCABE /* TelaVermelhaViewController.swift */,
+				ACDA498E1EC6778300CDCABE /* TelaXViewController.swift */,
+				ACDA49671EC66B4200CDCABE /* Assets.xcassets */,
+				ACDA49691EC66B4200CDCABE /* LaunchScreen.storyboard */,
+				ACDA496C1EC66B4200CDCABE /* Info.plist */,
+			);
+			path = "Navegando Entre Telas";
+			sourceTree = "<group>";
+		};
+		ACDA49741EC66B4300CDCABE /* Navegando Entre TelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA49751EC66B4300CDCABE /* Navegando_Entre_TelasTests.swift */,
+				ACDA49771EC66B4300CDCABE /* Info.plist */,
+			);
+			path = "Navegando Entre TelasTests";
+			sourceTree = "<group>";
+		};
+		ACDA497F1EC66B4300CDCABE /* Navegando Entre TelasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA49801EC66B4300CDCABE /* Navegando_Entre_TelasUITests.swift */,
+				ACDA49821EC66B4300CDCABE /* Info.plist */,
+			);
+			path = "Navegando Entre TelasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDA495C1EC66B4200CDCABE /* Navegando Entre Telas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDA49851EC66B4300CDCABE /* Build configuration list for PBXNativeTarget "Navegando Entre Telas" */;
+			buildPhases = (
+				ACDA49591EC66B4200CDCABE /* Sources */,
+				ACDA495A1EC66B4200CDCABE /* Frameworks */,
+				ACDA495B1EC66B4200CDCABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navegando Entre Telas";
+			productName = "Navegando Entre Telas";
+			productReference = ACDA495D1EC66B4200CDCABE /* Navegando Entre Telas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDA49701EC66B4300CDCABE /* Navegando Entre TelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDA49881EC66B4300CDCABE /* Build configuration list for PBXNativeTarget "Navegando Entre TelasTests" */;
+			buildPhases = (
+				ACDA496D1EC66B4300CDCABE /* Sources */,
+				ACDA496E1EC66B4300CDCABE /* Frameworks */,
+				ACDA496F1EC66B4300CDCABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDA49731EC66B4300CDCABE /* PBXTargetDependency */,
+			);
+			name = "Navegando Entre TelasTests";
+			productName = "Navegando Entre TelasTests";
+			productReference = ACDA49711EC66B4300CDCABE /* Navegando Entre TelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDA497B1EC66B4300CDCABE /* Navegando Entre TelasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDA498B1EC66B4300CDCABE /* Build configuration list for PBXNativeTarget "Navegando Entre TelasUITests" */;
+			buildPhases = (
+				ACDA49781EC66B4300CDCABE /* Sources */,
+				ACDA49791EC66B4300CDCABE /* Frameworks */,
+				ACDA497A1EC66B4300CDCABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDA497E1EC66B4300CDCABE /* PBXTargetDependency */,
+			);
+			name = "Navegando Entre TelasUITests";
+			productName = "Navegando Entre TelasUITests";
+			productReference = ACDA497C1EC66B4300CDCABE /* Navegando Entre TelasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDA49551EC66B4200CDCABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Joyce Silva";
+				TargetAttributes = {
+					ACDA495C1EC66B4200CDCABE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACDA49701EC66B4300CDCABE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACDA495C1EC66B4200CDCABE;
+					};
+					ACDA497B1EC66B4300CDCABE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACDA495C1EC66B4200CDCABE;
+					};
+				};
+			};
+			buildConfigurationList = ACDA49581EC66B4200CDCABE /* Build configuration list for PBXProject "Navegando Entre Telas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDA49541EC66B4200CDCABE;
+			productRefGroup = ACDA495E1EC66B4200CDCABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDA495C1EC66B4200CDCABE /* Navegando Entre Telas */,
+				ACDA49701EC66B4300CDCABE /* Navegando Entre TelasTests */,
+				ACDA497B1EC66B4300CDCABE /* Navegando Entre TelasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDA495B1EC66B4200CDCABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDA496B1EC66B4200CDCABE /* LaunchScreen.storyboard in Resources */,
+				ACDA49681EC66B4200CDCABE /* Assets.xcassets in Resources */,
+				ACDA49661EC66B4200CDCABE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDA496F1EC66B4300CDCABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDA497A1EC66B4300CDCABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDA49591EC66B4200CDCABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDA49931EC67F9800CDCABE /* TelaPrincipalViewController.swift in Sources */,
+				ACDA49911EC67BF800CDCABE /* TelaVermelhaViewController.swift in Sources */,
+				ACDA498F1EC6778300CDCABE /* TelaXViewController.swift in Sources */,
+				ACDA49631EC66B4200CDCABE /* ViewController.swift in Sources */,
+				ACDA49611EC66B4200CDCABE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDA496D1EC66B4300CDCABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDA49761EC66B4300CDCABE /* Navegando_Entre_TelasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDA49781EC66B4300CDCABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDA49811EC66B4300CDCABE /* Navegando_Entre_TelasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDA49731EC66B4300CDCABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDA495C1EC66B4200CDCABE /* Navegando Entre Telas */;
+			targetProxy = ACDA49721EC66B4300CDCABE /* PBXContainerItemProxy */;
+		};
+		ACDA497E1EC66B4300CDCABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDA495C1EC66B4200CDCABE /* Navegando Entre Telas */;
+			targetProxy = ACDA497D1EC66B4300CDCABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACDA49641EC66B4200CDCABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDA49651EC66B4200CDCABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDA49691EC66B4200CDCABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDA496A1EC66B4200CDCABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDA49831EC66B4300CDCABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDA49841EC66B4300CDCABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDA49861EC66B4300CDCABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Navegando Entre Telas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Navegando-Entre-Telas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACDA49871EC66B4300CDCABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Navegando Entre Telas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Navegando-Entre-Telas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ACDA49891EC66B4300CDCABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Navegando Entre TelasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Navegando-Entre-TelasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navegando Entre Telas.app/Navegando Entre Telas";
+			};
+			name = Debug;
+		};
+		ACDA498A1EC66B4300CDCABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Navegando Entre TelasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Navegando-Entre-TelasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navegando Entre Telas.app/Navegando Entre Telas";
+			};
+			name = Release;
+		};
+		ACDA498C1EC66B4300CDCABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Navegando Entre TelasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Navegando-Entre-TelasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Navegando Entre Telas";
+			};
+			name = Debug;
+		};
+		ACDA498D1EC66B4300CDCABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Navegando Entre TelasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Navegando-Entre-TelasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Navegando Entre Telas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDA49581EC66B4200CDCABE /* Build configuration list for PBXProject "Navegando Entre Telas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDA49831EC66B4300CDCABE /* Debug */,
+				ACDA49841EC66B4300CDCABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDA49851EC66B4300CDCABE /* Build configuration list for PBXNativeTarget "Navegando Entre Telas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDA49861EC66B4300CDCABE /* Debug */,
+				ACDA49871EC66B4300CDCABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACDA49881EC66B4300CDCABE /* Build configuration list for PBXNativeTarget "Navegando Entre TelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDA49891EC66B4300CDCABE /* Debug */,
+				ACDA498A1EC66B4300CDCABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACDA498B1EC66B4300CDCABE /* Build configuration list for PBXNativeTarget "Navegando Entre TelasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDA498C1EC66B4300CDCABE /* Debug */,
+				ACDA498D1EC66B4300CDCABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDA49551EC66B4200CDCABE /* Project object */;
+}
